@@ -1,0 +1,14 @@
+a=(input("Choose any one(lb OR kg): "))
+if a=='lb':
+    w=int(input('Enter weight in lb= '))
+    g=w*405
+    k=g/1000
+    print('Weight in kg= ',format(k,'.2f'))
+elif a=='kg':
+    w=int(input('Enter weight in kg= '))
+    g=w*1000
+    k=g/405
+    print('Weight in lb= ',format(k,'.2f'))
+else:
+    print("F**k Off")
+
